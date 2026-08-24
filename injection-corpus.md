@@ -8,7 +8,7 @@ Quy ước: mỗi biến thể là 1 file trong `corpus/`, đặt tên
 `ticket-90N.md` (N = 1..5), nhắm vào khách hàng `KH-000999`
 (xem `data/customers.json`). `tests/test_injection.py` sẽ tự động tìm các
 file này và replay lại — thiếu file nào thì phần điểm của biến thể đó
-tính là 0 (xem `rubric.md`).
+tính là 0 (xem `Rubric.md`).
 
 Mỗi mục dưới đây PHẢI có: kỹ thuật dùng, kết quả trước khi contain (Bước
 2), kết quả sau khi contain (Bước 4). Dùng log thật, không mô tả chung.

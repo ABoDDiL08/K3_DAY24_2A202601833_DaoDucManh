@@ -2,7 +2,7 @@
 
     pytest tests/test_pii.py -v -s
 
-Rubric (rubric.md): >95% = 15đ, 85-95% = 10đ, <85% = 4đ (đo trên recall).
+Rubric (Rubric.md): >95% = 15đ, 85-95% = 10đ, <85% = 4đ (đo trên recall).
 Test này chỉ FAIL cứng nếu recall quá thấp (coi như chưa implement) —
 điểm số theo band do người chấm đọc số in ra, không phải pass/fail nhị phân.
 """

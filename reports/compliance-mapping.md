@@ -1,7 +1,7 @@
 # Compliance mapping
 
 Điền evidence là **đường dẫn file/dòng thật** trong repo của bạn — không
-phải mô tả chung. Xem `guide.md` Bước 4 và `rubric.md`.
+phải mô tả chung. Xem `Guide.md` Bước 4 và `Rubric.md`.
 
 | Requirement | Control | Evidence |
 |---|---|---|

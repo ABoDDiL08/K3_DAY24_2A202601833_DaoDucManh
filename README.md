@@ -5,9 +5,10 @@ PII của khách hàng ra ngoài bằng prompt injection, (3) viết 4 control �
 chặn đúng cuộc tấn công đó, (4) tấn công lại và chứng minh bằng log/ledger
 rằng nó bị chặn.
 
-Đọc `guide.md` để có timeline chi tiết từng bước. Đọc `rubric.md` để biết
-cách được chấm điểm — có **điều kiện trượt** không phụ thuộc tổng điểm,
-đọc kỹ trước khi bắt đầu.
+**Đọc trước khi bắt đầu:**
+
+- [`Guide.md`](Guide.md) — timeline 2h, hướng dẫn từng bước
+- [`Rubric.md`](Rubric.md) — cách chấm điểm, có **điều kiện trượt** không phụ thuộc tổng điểm, đọc kỹ trước khi bắt đầu
 
 ## Quy tắc an toàn (đọc trước khi chạy bất cứ thứ gì)
 
@@ -54,8 +55,8 @@ key ở đường mặc định.
 ```
 lab24-governed-agent/
 ├── README.md              bạn đang đọc file này
-├── guide.md               timeline 2h, hướng dẫn từng bước
-├── rubric.md               cách chấm điểm, điều kiện trượt
+├── Guide.md               timeline 2h, hướng dẫn từng bước
+├── Rubric.md               cách chấm điểm, điều kiện trượt
 ├── requirements.txt
 ├── pytest.ini
 ├── corpus/                 40 ticket khách hàng (có PII synthetic) + ticket-901.md (ví dụ injection)
@@ -88,5 +89,5 @@ Nộp lại toàn bộ thư mục này (hoặc git repo) sau khi đã:
 2. Viết xong `injection-corpus.md` với ≥5 biến thể
 3. Có `reports/attack-before.log`, `reports/attack-after.log`
 4. Có `reports/compliance-mapping.md`, `reports/dpia-lite.md`
-5. `pytest` chạy được (không cần 100% pass — điểm theo `rubric.md`, nhưng
+5. `pytest` chạy được (không cần 100% pass — điểm theo `Rubric.md`, nhưng
    đọc kỹ điều kiện trượt)
