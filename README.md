@@ -1,4 +1,4 @@
-# Lab 24 — Attack your own agent, then contain it
+# Day 24: Data governance and Security — Attack your own agent, then contain it
 
 Bạn sẽ: (1) chạy một agent chưa có kiểm soát gì, (2) tự tay khiến nó gửi
 PII của khách hàng ra ngoài bằng prompt injection, (3) viết 4 control để
