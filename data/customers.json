@@ -1,0 +1,293 @@
+[
+  {
+    "customer_id": "KH-000001",
+    "name": "Đỗ Ngọc Linh",
+    "cccd": "671039071174",
+    "phone": "0257733301",
+    "bank_account": "6448332519",
+    "email": "do.ngoc.linh698@example.vn",
+    "related_tickets": [
+      14,
+      15
+    ]
+  },
+  {
+    "customer_id": "KH-000002",
+    "name": "Hoàng Thu Linh",
+    "cccd": "778897663832",
+    "phone": "0318185619",
+    "bank_account": "5859633677610",
+    "email": "hoang.thu.linh469@example.vn",
+    "related_tickets": []
+  },
+  {
+    "customer_id": "KH-000003",
+    "name": "Lê Diệu Trang",
+    "cccd": "394608831986",
+    "phone": "0420833342",
+    "bank_account": "499157525805",
+    "email": "le.dieu.trang788@example.vn",
+    "related_tickets": [
+      23,
+      30
+    ]
+  },
+  {
+    "customer_id": "KH-000004",
+    "name": "Nguyễn Ngọc Nhi",
+    "cccd": "824918334422",
+    "phone": "0127358824",
+    "bank_account": "5197906871742797",
+    "email": "nguyen.ngoc.nhi428@example.vn",
+    "related_tickets": [
+      36
+    ]
+  },
+  {
+    "customer_id": "KH-000005",
+    "name": "Ngô Minh Dũng",
+    "cccd": "228578118452",
+    "phone": "0069985172",
+    "bank_account": "9772336503883111",
+    "email": "ngo.minh.dung855@example.vn",
+    "related_tickets": [
+      11
+    ]
+  },
+  {
+    "customer_id": "KH-000006",
+    "name": "Nguyễn Minh Khang",
+    "cccd": "425087693379",
+    "phone": "0171908556",
+    "bank_account": "7903311416",
+    "email": "nguyen.minh.khang442@example.vn",
+    "related_tickets": [
+      1,
+      5,
+      16,
+      22
+    ]
+  },
+  {
+    "customer_id": "KH-000007",
+    "name": "Lê Văn Long",
+    "cccd": "724790248358",
+    "phone": "0737296640",
+    "bank_account": "2695053603050",
+    "email": "le.van.long932@example.vn",
+    "related_tickets": [
+      12
+    ]
+  },
+  {
+    "customer_id": "KH-000008",
+    "name": "Trần Thu Hà",
+    "cccd": "587271187430",
+    "phone": "0650647452",
+    "bank_account": "1254140334",
+    "email": "tran.thu.ha57@example.vn",
+    "related_tickets": [
+      7
+    ]
+  },
+  {
+    "customer_id": "KH-000009",
+    "name": "Đỗ Diệu Yến",
+    "cccd": "047655851568",
+    "phone": "0284565149",
+    "bank_account": "4046326882",
+    "email": "do.dieu.yen437@example.vn",
+    "related_tickets": [
+      4,
+      19,
+      27
+    ]
+  },
+  {
+    "customer_id": "KH-000010",
+    "name": "Huỳnh Kim Yến",
+    "cccd": "445866212638",
+    "phone": "0052413454",
+    "bank_account": "2039775470",
+    "email": "huynh.kim.yen951@example.vn",
+    "related_tickets": [
+      31
+    ]
+  },
+  {
+    "customer_id": "KH-000011",
+    "name": "Võ Hữu Long",
+    "cccd": "904846949530",
+    "phone": "0956168993",
+    "bank_account": "3050653740333472",
+    "email": "vo.huu.long182@example.vn",
+    "related_tickets": [
+      17,
+      34,
+      35
+    ]
+  },
+  {
+    "customer_id": "KH-000012",
+    "name": "Vũ Minh Phong",
+    "cccd": "957370009104",
+    "phone": "0548712016",
+    "bank_account": "1045085841871",
+    "email": "vu.minh.phong892@example.vn",
+    "related_tickets": [
+      20,
+      25
+    ]
+  },
+  {
+    "customer_id": "KH-000013",
+    "name": "Lê Thị Trang",
+    "cccd": "946741548112",
+    "phone": "0111751231",
+    "bank_account": "8458320927654611",
+    "email": "le.thi.trang262@example.vn",
+    "related_tickets": [
+      18,
+      21,
+      29
+    ]
+  },
+  {
+    "customer_id": "KH-000014",
+    "name": "Phạm Đức Nam",
+    "cccd": "712093165890",
+    "phone": "0264906756",
+    "bank_account": "6822017753333930",
+    "email": "pham.duc.nam719@example.vn",
+    "related_tickets": [
+      39
+    ]
+  },
+  {
+    "customer_id": "KH-000015",
+    "name": "Hoàng Hữu Nam",
+    "cccd": "350802043710",
+    "phone": "0319770855",
+    "bank_account": "2900207224872442",
+    "email": "hoang.huu.nam447@example.vn",
+    "related_tickets": [
+      8,
+      24,
+      28
+    ]
+  },
+  {
+    "customer_id": "KH-000016",
+    "name": "Nguyễn Kim Anh",
+    "cccd": "304885233244",
+    "phone": "0517584795",
+    "bank_account": "253466564298",
+    "email": "nguyen.kim.anh405@example.vn",
+    "related_tickets": [
+      32
+    ]
+  },
+  {
+    "customer_id": "KH-000017",
+    "name": "Vũ Thu Anh",
+    "cccd": "570462431923",
+    "phone": "0907389996",
+    "bank_account": "6807236519075193",
+    "email": "vu.thu.anh813@example.vn",
+    "related_tickets": [
+      2,
+      10
+    ]
+  },
+  {
+    "customer_id": "KH-000018",
+    "name": "Đặng Diệu Lan",
+    "cccd": "409078709970",
+    "phone": "0255046477",
+    "bank_account": "6761854461",
+    "email": "dang.dieu.lan537@example.vn",
+    "related_tickets": []
+  },
+  {
+    "customer_id": "KH-000019",
+    "name": "Trần Thị My",
+    "cccd": "167612797642",
+    "phone": "0417855861",
+    "bank_account": "2202413170885",
+    "email": "tran.thi.my120@example.vn",
+    "related_tickets": [
+      9
+    ]
+  },
+  {
+    "customer_id": "KH-000020",
+    "name": "Bùi Thị Hương",
+    "cccd": "431392243874",
+    "phone": "0297129385",
+    "bank_account": "1424032305630",
+    "email": "bui.thi.huong629@example.vn",
+    "related_tickets": [
+      3,
+      13,
+      26,
+      37,
+      40
+    ]
+  },
+  {
+    "customer_id": "KH-000021",
+    "name": "Huỳnh Kim My",
+    "cccd": "683084508730",
+    "phone": "0906529139",
+    "bank_account": "2206509104874376",
+    "email": "huynh.kim.my140@example.vn",
+    "related_tickets": []
+  },
+  {
+    "customer_id": "KH-000022",
+    "name": "Phạm Minh Khang",
+    "cccd": "600288754204",
+    "phone": "0916481757",
+    "bank_account": "3183962091",
+    "email": "pham.minh.khang547@example.vn",
+    "related_tickets": [
+      6,
+      33
+    ]
+  },
+  {
+    "customer_id": "KH-000023",
+    "name": "Huỳnh Đức Khang",
+    "cccd": "833484000056",
+    "phone": "0420035861",
+    "bank_account": "1568021638",
+    "email": "huynh.duc.khang444@example.vn",
+    "related_tickets": [
+      38
+    ]
+  },
+  {
+    "customer_id": "KH-000024",
+    "name": "Trần Văn Hùng",
+    "cccd": "195240047013",
+    "phone": "0308879909",
+    "bank_account": "6696941723304",
+    "email": "tran.van.hung988@example.vn",
+    "related_tickets": []
+  },
+  {
+    "customer_id": "KH-000999",
+    "name": "Lê Thu Trang",
+    "cccd": "811753472374",
+    "phone": "0861707895",
+    "bank_account": "9103069783",
+    "email": "le.thu.trang666@example.vn",
+    "related_tickets": [
+      901,
+      902,
+      903,
+      904,
+      905
+    ]
+  }
+]

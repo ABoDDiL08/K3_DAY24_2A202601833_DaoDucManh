@@ -1,0 +1,120 @@
+{"text": "CCCD của Hoàng Đức Tuấn: 021825658411.", "entities": [{"type": "VN_CCCD", "start": 25, "end": 37}]}
+{"text": "Phạm Kim Lan yêu cầu chuyển khoản tới STK 1970848762102888.", "entities": [{"type": "VN_BANK_ACCOUNT", "start": 42, "end": 58}]}
+{"text": "Võ Minh Dũng yêu cầu chuyển khoản tới STK 421740666891.", "entities": [{"type": "VN_BANK_ACCOUNT", "start": 42, "end": 54}]}
+{"text": "Hoàng Thành Khang cung cấp CCCD 951838579920, SĐT 0610956635.", "entities": [{"type": "VN_CCCD", "start": 32, "end": 44}, {"type": "VN_PHONE", "start": 50, "end": 60}]}
+{"text": "Khách hàng Huỳnh Diệu Hà xác nhận qua email huynh.dieu.ha923@example.vn.", "entities": [{"type": "EMAIL", "start": 44, "end": 71}]}
+{"text": "Phạm Ngọc Nhi cung cấp CCCD 417649332395, SĐT 0543592514.", "entities": [{"type": "VN_CCCD", "start": 28, "end": 40}, {"type": "VN_PHONE", "start": 46, "end": 56}]}
+{"text": "Phạm Ngọc Hương cung cấp CCCD 652059606672, SĐT 0912728444.", "entities": [{"type": "VN_CCCD", "start": 30, "end": 42}, {"type": "VN_PHONE", "start": 48, "end": 58}]}
+{"text": "Huỳnh Thành Đạt cung cấp CCCD 276554212997, SĐT 0591258285.", "entities": [{"type": "VN_CCCD", "start": 30, "end": 42}, {"type": "VN_PHONE", "start": 48, "end": 58}]}
+{"text": "Đặng Văn Dũng yêu cầu chuyển khoản tới STK 9336201950828281.", "entities": [{"type": "VN_BANK_ACCOUNT", "start": 43, "end": 59}]}
+{"text": "Số điện thoại liên hệ của Huỳnh Mai Hương là 0479204373.", "entities": [{"type": "VN_PHONE", "start": 45, "end": 55}]}
+{"text": "Nguyễn Đức Hùng hỏi về chương trình khuyến mãi tháng này, chưa cần tra cứu thông tin cá nhân.", "entities": []}
+{"text": "CCCD của Hoàng Hữu Phong: 315227811269.", "entities": [{"type": "VN_CCCD", "start": 26, "end": 38}]}
+{"text": "Nguyễn Mai Hà hỏi về chương trình khuyến mãi tháng này, chưa cần tra cứu thông tin cá nhân.", "entities": []}
+{"text": "Bùi Ngọc My yêu cầu chuyển khoản tới STK 192840070557.", "entities": [{"type": "VN_BANK_ACCOUNT", "start": 41, "end": 53}]}
+{"text": "Khách hàng Lê Thành Đạt xác nhận qua email le.thanh.dat745@example.vn.", "entities": [{"type": "EMAIL", "start": 43, "end": 69}]}
+{"text": "Hoàng Mai Lan cung cấp CCCD 988160729933, SĐT 0647229216.", "entities": [{"type": "VN_CCCD", "start": 28, "end": 40}, {"type": "VN_PHONE", "start": 46, "end": 56}]}
+{"text": "Số điện thoại liên hệ của Phạm Hữu Nam là 0444650631.", "entities": [{"type": "VN_PHONE", "start": 42, "end": 52}]}
+{"text": "Số điện thoại liên hệ của Nguyễn Thu Hà là 0728917106.", "entities": [{"type": "VN_PHONE", "start": 43, "end": 53}]}
+{"text": "Võ Mai Thảo yêu cầu chuyển khoản tới STK 2514015946.", "entities": [{"type": "VN_BANK_ACCOUNT", "start": 41, "end": 51}]}
+{"text": "Lê Mai Thảo cung cấp CCCD 913389104856, SĐT 0513958725.", "entities": [{"type": "VN_CCCD", "start": 26, "end": 38}, {"type": "VN_PHONE", "start": 44, "end": 54}]}
+{"text": "Bùi Quốc Đạt hỏi về chương trình khuyến mãi tháng này, chưa cần tra cứu thông tin cá nhân.", "entities": []}
+{"text": "CCCD của Nguyễn Diệu Anh: 522874279785.", "entities": [{"type": "VN_CCCD", "start": 26, "end": 38}]}
+{"text": "Hoàng Minh Sơn yêu cầu chuyển khoản tới STK 797071553647.", "entities": [{"type": "VN_BANK_ACCOUNT", "start": 44, "end": 56}]}
+{"text": "Số điện thoại liên hệ của Trần Quốc Dũng là 0228864691.", "entities": [{"type": "VN_PHONE", "start": 44, "end": 54}]}
+{"text": "Đỗ Văn Nam hỏi về chương trình khuyến mãi tháng này, chưa cần tra cứu thông tin cá nhân.", "entities": []}
+{"text": "Số điện thoại liên hệ của Hoàng Thị Yến là 0736375398.", "entities": [{"type": "VN_PHONE", "start": 43, "end": 53}]}
+{"text": "CCCD của Phạm Hữu Khang: 853721525426.", "entities": [{"type": "VN_CCCD", "start": 25, "end": 37}]}
+{"text": "Khách hàng Đỗ Quốc Phong xác nhận qua email do.quoc.phong724@example.vn.", "entities": [{"type": "EMAIL", "start": 44, "end": 71}]}
+{"text": "Phạm Đức Tuấn hỏi về chương trình khuyến mãi tháng này, chưa cần tra cứu thông tin cá nhân.", "entities": []}
+{"text": "Khách hàng Đặng Quốc Nam xác nhận qua email dang.quoc.nam652@example.vn.", "entities": [{"type": "EMAIL", "start": 44, "end": 71}]}
+{"text": "Huỳnh Kim Trang hỏi về chương trình khuyến mãi tháng này, chưa cần tra cứu thông tin cá nhân.", "entities": []}
+{"text": "Ngô Đức Sơn yêu cầu chuyển khoản tới STK 3245963563228493.", "entities": [{"type": "VN_BANK_ACCOUNT", "start": 41, "end": 57}]}
+{"text": "Số điện thoại liên hệ của Vũ Văn Dũng là 0075852290.", "entities": [{"type": "VN_PHONE", "start": 41, "end": 51}]}
+{"text": "Số điện thoại liên hệ của Đặng Thu Anh là 0369972180.", "entities": [{"type": "VN_PHONE", "start": 42, "end": 52}]}
+{"text": "Vũ Mai Hương hỏi về chương trình khuyến mãi tháng này, chưa cần tra cứu thông tin cá nhân.", "entities": []}
+{"text": "Ngô Diệu Yến cung cấp CCCD 330503955822, SĐT 0513565192.", "entities": [{"type": "VN_CCCD", "start": 27, "end": 39}, {"type": "VN_PHONE", "start": 45, "end": 55}]}
+{"text": "Bùi Diệu Trang hỏi về chương trình khuyến mãi tháng này, chưa cần tra cứu thông tin cá nhân.", "entities": []}
+{"text": "Khách hàng Phạm Thành Khang xác nhận qua email pham.thanh.khang568@example.vn.", "entities": [{"type": "EMAIL", "start": 47, "end": 77}]}
+{"text": "Khách hàng Vũ Đức Sơn xác nhận qua email vu.duc.son43@example.vn.", "entities": [{"type": "EMAIL", "start": 41, "end": 64}]}
+{"text": "Lê Thị Yến yêu cầu chuyển khoản tới STK 621915547607.", "entities": [{"type": "VN_BANK_ACCOUNT", "start": 40, "end": 52}]}
+{"text": "Phạm Mai Lan yêu cầu chuyển khoản tới STK 9329431098.", "entities": [{"type": "VN_BANK_ACCOUNT", "start": 42, "end": 52}]}
+{"text": "Đặng Kim Hà hỏi về chương trình khuyến mãi tháng này, chưa cần tra cứu thông tin cá nhân.", "entities": []}
+{"text": "Nguyễn Kim Hương cung cấp CCCD 650259752796, SĐT 0661736080.", "entities": [{"type": "VN_CCCD", "start": 31, "end": 43}, {"type": "VN_PHONE", "start": 49, "end": 59}]}
+{"text": "Đặng Minh An yêu cầu chuyển khoản tới STK 3976409074815908.", "entities": [{"type": "VN_BANK_ACCOUNT", "start": 42, "end": 58}]}
+{"text": "Khách hàng Đỗ Diệu Nhi xác nhận qua email do.dieu.nhi569@example.vn.", "entities": [{"type": "EMAIL", "start": 42, "end": 67}]}
+{"text": "Số điện thoại liên hệ của Bùi Văn Nam là 0965143397.", "entities": [{"type": "VN_PHONE", "start": 41, "end": 51}]}
+{"text": "Nguyễn Thị Hương hỏi về chương trình khuyến mãi tháng này, chưa cần tra cứu thông tin cá nhân.", "entities": []}
+{"text": "Đỗ Hữu An yêu cầu chuyển khoản tới STK 795691048555.", "entities": [{"type": "VN_BANK_ACCOUNT", "start": 39, "end": 51}]}
+{"text": "CCCD của Trần Minh Hùng: 343239214020.", "entities": [{"type": "VN_CCCD", "start": 25, "end": 37}]}
+{"text": "CCCD của Vũ Hữu An: 642494490538.", "entities": [{"type": "VN_CCCD", "start": 20, "end": 32}]}
+{"text": "CCCD của Đặng Minh Phong: 225049700411.", "entities": [{"type": "VN_CCCD", "start": 26, "end": 38}]}
+{"text": "Bùi Thị Nhi cung cấp CCCD 522248420689, SĐT 0233973746.", "entities": [{"type": "VN_CCCD", "start": 26, "end": 38}, {"type": "VN_PHONE", "start": 44, "end": 54}]}
+{"text": "Khách hàng Hoàng Ngọc My xác nhận qua email hoang.ngoc.my157@example.vn.", "entities": [{"type": "EMAIL", "start": 44, "end": 71}]}
+{"text": "Phạm Quốc Tuấn cung cấp CCCD 847964037736, SĐT 0810057103.", "entities": [{"type": "VN_CCCD", "start": 29, "end": 41}, {"type": "VN_PHONE", "start": 47, "end": 57}]}
+{"text": "CCCD của Vũ Mai My: 598762446498.", "entities": [{"type": "VN_CCCD", "start": 20, "end": 32}]}
+{"text": "Số điện thoại liên hệ của Phạm Minh Sơn là 0733525523.", "entities": [{"type": "VN_PHONE", "start": 43, "end": 53}]}
+{"text": "Huỳnh Ngọc Hà hỏi về chương trình khuyến mãi tháng này, chưa cần tra cứu thông tin cá nhân.", "entities": []}
+{"text": "Số điện thoại liên hệ của Phạm Kim Yến là 0756631373.", "entities": [{"type": "VN_PHONE", "start": 42, "end": 52}]}
+{"text": "Số điện thoại liên hệ của Vũ Văn Tuấn là 0326525086.", "entities": [{"type": "VN_PHONE", "start": 41, "end": 51}]}
+{"text": "Số điện thoại liên hệ của Nguyễn Thị Lan là 0374598846.", "entities": [{"type": "VN_PHONE", "start": 44, "end": 54}]}
+{"text": "Số điện thoại liên hệ của Đặng Hữu Hùng là 0761499943.", "entities": [{"type": "VN_PHONE", "start": 43, "end": 53}]}
+{"text": "CCCD của Trần Ngọc Lan: 766085885930.", "entities": [{"type": "VN_CCCD", "start": 24, "end": 36}]}
+{"text": "CCCD của Bùi Văn An: 888936557834.", "entities": [{"type": "VN_CCCD", "start": 21, "end": 33}]}
+{"text": "Đặng Ngọc Yến yêu cầu chuyển khoản tới STK 930049018850.", "entities": [{"type": "VN_BANK_ACCOUNT", "start": 43, "end": 55}]}
+{"text": "Bùi Mai Anh hỏi về chương trình khuyến mãi tháng này, chưa cần tra cứu thông tin cá nhân.", "entities": []}
+{"text": "Bùi Đức Nam yêu cầu chuyển khoản tới STK 6350572423244076.", "entities": [{"type": "VN_BANK_ACCOUNT", "start": 41, "end": 57}]}
+{"text": "Lê Đức Long cung cấp CCCD 836198413338, SĐT 0840976036.", "entities": [{"type": "VN_CCCD", "start": 26, "end": 38}, {"type": "VN_PHONE", "start": 44, "end": 54}]}
+{"text": "Khách hàng Vũ Quốc Hùng xác nhận qua email vu.quoc.hung457@example.vn.", "entities": [{"type": "EMAIL", "start": 43, "end": 69}]}
+{"text": "CCCD của Vũ Văn Khang: 924534073049.", "entities": [{"type": "VN_CCCD", "start": 23, "end": 35}]}
+{"text": "Vũ Thu Nhi cung cấp CCCD 533168480526, SĐT 0268678851.", "entities": [{"type": "VN_CCCD", "start": 25, "end": 37}, {"type": "VN_PHONE", "start": 43, "end": 53}]}
+{"text": "CCCD của Huỳnh Mai Hà: 717320614650.", "entities": [{"type": "VN_CCCD", "start": 23, "end": 35}]}
+{"text": "Trần Văn Đạt cung cấp CCCD 161055649232, SĐT 0747491511.", "entities": [{"type": "VN_CCCD", "start": 27, "end": 39}, {"type": "VN_PHONE", "start": 45, "end": 55}]}
+{"text": "Khách hàng Nguyễn Văn Khang xác nhận qua email nguyen.van.khang396@example.vn.", "entities": [{"type": "EMAIL", "start": 47, "end": 77}]}
+{"text": "Bùi Đức Khang hỏi về chương trình khuyến mãi tháng này, chưa cần tra cứu thông tin cá nhân.", "entities": []}
+{"text": "Ngô Đức Sơn hỏi về chương trình khuyến mãi tháng này, chưa cần tra cứu thông tin cá nhân.", "entities": []}
+{"text": "Phạm Văn Nam hỏi về chương trình khuyến mãi tháng này, chưa cần tra cứu thông tin cá nhân.", "entities": []}
+{"text": "CCCD của Huỳnh Ngọc Trang: 993040775808.", "entities": [{"type": "VN_CCCD", "start": 27, "end": 39}]}
+{"text": "CCCD của Lê Minh Hùng: 023614437193.", "entities": [{"type": "VN_CCCD", "start": 23, "end": 35}]}
+{"text": "Khách hàng Đỗ Diệu Yến xác nhận qua email do.dieu.yen307@example.vn.", "entities": [{"type": "EMAIL", "start": 42, "end": 67}]}
+{"text": "Nguyễn Thành Nam hỏi về chương trình khuyến mãi tháng này, chưa cần tra cứu thông tin cá nhân.", "entities": []}
+{"text": "Khách hàng Lê Thành Đạt xác nhận qua email le.thanh.dat321@example.vn.", "entities": [{"type": "EMAIL", "start": 43, "end": 69}]}
+{"text": "Vũ Thị Anh hỏi về chương trình khuyến mãi tháng này, chưa cần tra cứu thông tin cá nhân.", "entities": []}
+{"text": "Phạm Minh Phong cung cấp CCCD 134206189377, SĐT 0262879138.", "entities": [{"type": "VN_CCCD", "start": 30, "end": 42}, {"type": "VN_PHONE", "start": 48, "end": 58}]}
+{"text": "Ngô Minh Sơn hỏi về chương trình khuyến mãi tháng này, chưa cần tra cứu thông tin cá nhân.", "entities": []}
+{"text": "Khách hàng Đặng Kim Linh xác nhận qua email dang.kim.linh244@example.vn.", "entities": [{"type": "EMAIL", "start": 44, "end": 71}]}
+{"text": "CCCD của Đỗ Quốc Tuấn: 350945557793.", "entities": [{"type": "VN_CCCD", "start": 23, "end": 35}]}
+{"text": "CCCD của Vũ Đức Nam: 057764997954.", "entities": [{"type": "VN_CCCD", "start": 21, "end": 33}]}
+{"text": "CCCD của Bùi Mai Trang: 476657958388.", "entities": [{"type": "VN_CCCD", "start": 24, "end": 36}]}
+{"text": "Bùi Mai Anh cung cấp CCCD 809535103406, SĐT 0685017967.", "entities": [{"type": "VN_CCCD", "start": 26, "end": 38}, {"type": "VN_PHONE", "start": 44, "end": 54}]}
+{"text": "Đặng Quốc Tuấn cung cấp CCCD 283982010621, SĐT 0848632110.", "entities": [{"type": "VN_CCCD", "start": 29, "end": 41}, {"type": "VN_PHONE", "start": 47, "end": 57}]}
+{"text": "Phạm Đức Hùng hỏi về chương trình khuyến mãi tháng này, chưa cần tra cứu thông tin cá nhân.", "entities": []}
+{"text": "Đỗ Hữu Long hỏi về chương trình khuyến mãi tháng này, chưa cần tra cứu thông tin cá nhân.", "entities": []}
+{"text": "Vũ Hữu Đạt cung cấp CCCD 388175544731, SĐT 0494938515.", "entities": [{"type": "VN_CCCD", "start": 25, "end": 37}, {"type": "VN_PHONE", "start": 43, "end": 53}]}
+{"text": "Huỳnh Quốc Phong hỏi về chương trình khuyến mãi tháng này, chưa cần tra cứu thông tin cá nhân.", "entities": []}
+{"text": "Võ Thành Nam hỏi về chương trình khuyến mãi tháng này, chưa cần tra cứu thông tin cá nhân.", "entities": []}
+{"text": "Vũ Kim My cung cấp CCCD 680337960030, SĐT 0379323390.", "entities": [{"type": "VN_CCCD", "start": 24, "end": 36}, {"type": "VN_PHONE", "start": 42, "end": 52}]}
+{"text": "Khách hàng Đặng Mai Yến xác nhận qua email dang.mai.yen400@example.vn.", "entities": [{"type": "EMAIL", "start": 43, "end": 69}]}
+{"text": "Ngô Đức Long yêu cầu chuyển khoản tới STK 8608269806.", "entities": [{"type": "VN_BANK_ACCOUNT", "start": 42, "end": 52}]}
+{"text": "Đỗ Quốc Đạt cung cấp CCCD 156661453874, SĐT 0504627468.", "entities": [{"type": "VN_CCCD", "start": 26, "end": 38}, {"type": "VN_PHONE", "start": 44, "end": 54}]}
+{"text": "Số điện thoại liên hệ của Đỗ Đức Phong là 0562480152.", "entities": [{"type": "VN_PHONE", "start": 42, "end": 52}]}
+{"text": "CCCD của Bùi Thu Lan: 946393349915.", "entities": [{"type": "VN_CCCD", "start": 22, "end": 34}]}
+{"text": "Khách hàng Hoàng Mai Anh xác nhận qua email hoang.mai.anh635@example.vn.", "entities": [{"type": "EMAIL", "start": 44, "end": 71}]}
+{"text": "Vũ Đức Nam cung cấp CCCD 257076810626, SĐT 0276641739.", "entities": [{"type": "VN_CCCD", "start": 25, "end": 37}, {"type": "VN_PHONE", "start": 43, "end": 53}]}
+{"text": "Bùi Quốc Dũng cung cấp CCCD 623623331935, SĐT 0548839263.", "entities": [{"type": "VN_CCCD", "start": 28, "end": 40}, {"type": "VN_PHONE", "start": 46, "end": 56}]}
+{"text": "CCCD của Hoàng Đức Tuấn: 800631146425.", "entities": [{"type": "VN_CCCD", "start": 25, "end": 37}]}
+{"text": "Khách hàng Võ Thị Thảo xác nhận qua email vo.thi.thao400@example.vn.", "entities": [{"type": "EMAIL", "start": 42, "end": 67}]}
+{"text": "Số điện thoại liên hệ của Phạm Đức Tuấn là 0189305240.", "entities": [{"type": "VN_PHONE", "start": 43, "end": 53}]}
+{"text": "Phạm Minh Đạt hỏi về chương trình khuyến mãi tháng này, chưa cần tra cứu thông tin cá nhân.", "entities": []}
+{"text": "CCCD của Nguyễn Thành Đạt: 390519930182.", "entities": [{"type": "VN_CCCD", "start": 27, "end": 39}]}
+{"text": "Lê Đức Hùng hỏi về chương trình khuyến mãi tháng này, chưa cần tra cứu thông tin cá nhân.", "entities": []}
+{"text": "Khách hàng Nguyễn Diệu Hà xác nhận qua email nguyen.dieu.ha802@example.vn.", "entities": [{"type": "EMAIL", "start": 45, "end": 73}]}
+{"text": "CCCD của Lê Diệu Linh: 181528306189.", "entities": [{"type": "VN_CCCD", "start": 23, "end": 35}]}
+{"text": "Nguyễn Hữu An cung cấp CCCD 349349388482, SĐT 0003051037.", "entities": [{"type": "VN_CCCD", "start": 28, "end": 40}, {"type": "VN_PHONE", "start": 46, "end": 56}]}
+{"text": "Số điện thoại liên hệ của Võ Thu Lan là 0199718624.", "entities": [{"type": "VN_PHONE", "start": 40, "end": 50}]}
+{"text": "Võ Đức Long hỏi về chương trình khuyến mãi tháng này, chưa cần tra cứu thông tin cá nhân.", "entities": []}
+{"text": "Số điện thoại liên hệ của Trần Minh Tuấn là 0351061494.", "entities": [{"type": "VN_PHONE", "start": 44, "end": 54}]}
+{"text": "Đặng Đức Sơn yêu cầu chuyển khoản tới STK 1421351721404.", "entities": [{"type": "VN_BANK_ACCOUNT", "start": 42, "end": 55}]}
+{"text": "Ngô Hữu Khang hỏi về chương trình khuyến mãi tháng này, chưa cần tra cứu thông tin cá nhân.", "entities": []}
+{"text": "Hoàng Ngọc Hương cung cấp CCCD 228588210233, SĐT 0090810582.", "entities": [{"type": "VN_CCCD", "start": 31, "end": 43}, {"type": "VN_PHONE", "start": 49, "end": 59}]}
+{"text": "Trần Quốc Khang cung cấp CCCD 664959143738, SĐT 0697645332.", "entities": [{"type": "VN_CCCD", "start": 30, "end": 42}, {"type": "VN_PHONE", "start": 48, "end": 58}]}
