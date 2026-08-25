@@ -31,9 +31,9 @@ chuyển sang `--mock` ngay — đừng debug API key, `--mock` không cần key
 với quyền gì, ghi log ở đâu. Trả lời 3 câu — **không có câu trả lời miễn
 phí, phải chỉ ra đúng dòng code**:
 
-1. Agent này có identity riêng không (per-run, per-agent id)?
-2. Ai quyết định nó được gọi `http_post`?
-3. Nếu nó gửi sai dữ liệu ra ngoài, bạn biết bằng cách nào?
+1. Agent này có identity riêng không (per-run, per-agent id)? ```Agent không có identity riêng cả per-run và per-agent id. Vì ở các dòng code gọi tool: dòng 31, dòng 39, dòng 44 (File agent/loop.py) đều không có tạo/truyền mã định danh vào tool call/log.```
+2. Ai quyết định nó được gọi `http_post`? ```LLM gọi `http_post` khi có thông tin khách hàng tìm được thông qua customer_id lưu trong collected. Dựa trên đoạn code từ dòng 34 đến 42, file agent/loop.py.```
+3. Nếu nó gửi sai dữ liệu ra ngoài, bạn biết bằng cách nào? ```Hiện tại không cách nào biết nếu agent gửi dữ liệu sai ra ngoài.```
 
 ## Bước 2 — Red team (25')
 
@@ -176,7 +176,10 @@ là chuyển dữ liệu xuyên biên giới theo NĐ 356/2025.
 
 ## Ba câu hỏi chốt buổi
 
-1. Bạn đã bỏ chân nào của trifecta, và agent mất đi khả năng gì?
-2. Nếu attacker có quyền ghi vào `corpus/`, control nào của bạn còn đứng vững?
+1. Bạn đã bỏ chân nào của trifecta, và agent mất đi khả năng gì? 
+```Không xoá tool, nhưng tách trifecta: Run A đọc untrusted content; Run B chỉ nhận ticket ID typed và tra `related_tickets`; restricted data bật egress thì bị deny trước `http_post` ([`agent/runner.py`](../agent/runner.py):161–262). Chuỗi **private data → network egress** bị loại bỏ. Sau containment, [`reports/attack-after.log`](attack-after.log) rỗng và [`reports/ledger.jsonl`](ledger.jsonl):46 ghi deny.```
+2. Nếu attacker có quyền ghi vào `corpus/`, control nào của bạn còn đứng vững? 
+```edaction PII, typed boundary, policy egress và hash-chain ledger vẫn hoạt động. Nhưng filename ticket vẫn là đầu vào được tin; cần authorization/signed documents hoặc allowlist khi triển khai thật. `KH-000777` không bị đọc trong split test ([`tests/test_split.py`](../tests/test_split.py):75–115).```
 3. Regulator hỏi "chứng minh dữ liệu khách hàng chưa từng ra khỏi hệ
    thống" — bạn mở file nào ra?
+```Với run sau containment: mở [`reports/attack-after.log`](attack-after.log), [`reports/ledger.jsonl`](ledger.jsonl):46 và chạy `ledger.verify(...)`. Không thể nói “chưa từng rò rỉ” cho toàn bộ lịch sử, vì [`reports/attack-before.log`](attack-before.log):1 chứng minh baseline đã gửi PII synthetic tới local sink.```

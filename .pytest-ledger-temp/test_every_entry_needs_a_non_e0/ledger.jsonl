@@ -1,0 +1,1 @@
+{"agent_id": "lab24-agent", "args_hash": "deadbeef", "classification": "internal", "decision": "deny", "hash": "6cefcc4e73bb5609db836447ff796ede07c4523c1be58740bb4f4a701ddca009", "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000", "reason": "", "run_id": "run-a", "tool": "http_post", "ts": "2026-08-24T00:00:00Z"}
