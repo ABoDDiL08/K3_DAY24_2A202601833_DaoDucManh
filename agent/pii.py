@@ -1,6 +1,6 @@
 """BƯỚC 3a — PII gate TRƯỚC KHI vào context/store (12').
 
-Đọc day24-LAB-SPEC.md §3a trước khi bắt đầu: Presidio không có tiếng Việt
+Đọc Guide.md (§3a) trước khi bắt đầu: Presidio không có tiếng Việt
 sẵn (AnalyzerEngine() mặc định chỉ hỗ trợ "en"). Đường an toàn cho 2h là
 regex recognizer + deny-list cho PERSON — coi spaCy/transformers NER là
 stretch goal, KHÔNG bắt buộc.

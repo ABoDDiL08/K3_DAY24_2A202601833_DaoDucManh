@@ -54,7 +54,7 @@ def test_pii_detection_precision_recall():
 
     assert recall >= 0.5, (
         f"recall={recall:.3f} quá thấp — kiểm tra lại regex trong agent/pii.py "
-        "(xem day24-LAB-SPEC.md §3a)"
+        "(xem Guide.md (§3a))"
     )
 
 

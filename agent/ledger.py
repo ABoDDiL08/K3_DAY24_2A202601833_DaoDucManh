@@ -1,6 +1,6 @@
 """BƯỚC 3d — audit ledger append-only, tamper-evident (10').
 
-JSONL, mỗi tool call một dòng. Đọc day24-LAB-SPEC.md §3d.
+JSONL, mỗi tool call một dòng. Đọc Guide.md (§3d).
 
 Interface bắt buộc (tests/test_ledger.py và agent/runner.py gọi trực tiếp):
 

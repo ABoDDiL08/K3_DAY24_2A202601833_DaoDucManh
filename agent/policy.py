@@ -1,6 +1,6 @@
 """BƯỚC 3b — PEP (Policy Enforcement Point) tại tool call (15').
 
-Cổng chặn TRƯỚC KHI tool thật sự execute. Đọc day24-LAB-SPEC.md §3b.
+Cổng chặn TRƯỚC KHI tool thật sự execute. Đọc Guide.md (§3b).
 
 Interface bắt buộc (tests/test_policy.py và agent/runner.py gọi trực tiếp):
 

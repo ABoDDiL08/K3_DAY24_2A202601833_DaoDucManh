@@ -1,6 +1,6 @@
 """BƯỚC 3c — trifecta split + egress allowlist (13'). ĐÂY LÀ PHẦN KHÓ NHẤT.
 
-Đọc day24-LAB-SPEC.md §3c trước khi viết code. Tóm tắt yêu cầu:
+Đọc Guide.md (§3c) trước khi viết code. Tóm tắt yêu cầu:
 
 Tách 1 yêu cầu người dùng thành ít nhất 2 run riêng biệt — KHÔNG run nào
 được cầm cả 3 chân của trifecta cùng lúc:

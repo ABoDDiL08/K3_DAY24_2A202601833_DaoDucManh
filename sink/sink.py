@@ -13,8 +13,25 @@ from __future__ import annotations
 import argparse
 import json
 import threading
+import socketserver
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
+
+class _FastHTTPServer(HTTPServer):
+    """HTTPServer mà KHÔNG gọi socket.getfqdn() khi bind.
+
+    Trên macOS, HTTPServer.server_bind() gọi getfqdn() để đặt server_name,
+    kích hoạt một lần reverse-DNS lookup có thể treo ~35s (tuỳ cấu hình
+    DNS). Với một sink chỉ nghe localhost, server_name không cần thiết, nên
+    ta bind thẳng qua TCPServer và tự đặt tên — startup tức thì.
+    """
+
+    def server_bind(self):
+        socketserver.TCPServer.server_bind(self)
+        host, port = self.server_address[:2]
+        self.server_name = host
+        self.server_port = port
+
 
 REPORTS_DIR = Path(__file__).resolve().parent.parent / "reports"
 LOG_PATH = REPORTS_DIR / "sink.log"
@@ -41,7 +58,7 @@ def make_handler(log_path: Path):
 def create_server(port: int = 9999, log_path: Path | None = None) -> HTTPServer:
     log_path = log_path or LOG_PATH
     log_path.parent.mkdir(parents=True, exist_ok=True)
-    return HTTPServer(("localhost", port), make_handler(log_path))
+    return _FastHTTPServer(("localhost", port), make_handler(log_path))
 
 
 def reset_log(log_path: Path | None = None) -> None:
