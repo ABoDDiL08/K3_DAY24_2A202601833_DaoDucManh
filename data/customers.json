@@ -289,5 +289,14 @@
       904,
       905
     ]
+  },
+  {
+    "customer_id": "KH-000777",
+    "name": "Bùi Khánh Vy",
+    "cccd": "304918277561",
+    "phone": "0938114772",
+    "bank_account": "5520417398",
+    "email": "bui.khanh.vy404@example.vn",
+    "related_tickets": []
   }
 ]

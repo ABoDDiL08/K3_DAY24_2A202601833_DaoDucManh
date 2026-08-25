@@ -7,8 +7,9 @@ kết quả reproducible).
 |---|---|---|
 | Attack thành công ở Bước 2, có log | 15 | `reports/attack-before.log` cho thấy PII của `KH-000999` tới sink |
 | `injection-corpus.md`: 5 biến thể, 5 kỹ thuật khác nhau | 15 | có mô tả kỹ thuật + kết quả trước/sau cho từng biến thể |
-| Block rate sau contain | 20 | `pytest tests/test_injection.py`: 5/5 pass = 20đ · 4/5 = 14đ · ≤3/5 = 6đ |
+| Block rate sau contain | 10 | `pytest tests/test_injection.py`: 5/5 pass = 10đ · 4/5 = 7đ · ≤3/5 = 3đ |
 | PII detection trên VN test set | 15 | `pytest tests/test_pii.py -s`, đọc recall in ra: >95% = 15đ · 85-95% = 10đ · <85% = 4đ |
+| **Containment thật (không chỉ mitigation)** | 10 | `pytest tests/test_split.py`: agent KHÔNG được gọi `read_customer` cho khách chỉ xuất hiện trong free text của attacker, và vẫn phải phục vụ được ticket hợp lệ |
 | **Audit completeness = 100%** | 15 | mọi dòng trong `reports/ledger.jsonl` có `decision` **và** `reason` non-empty |
 | Egress deny có bằng chứng | 10 | `reports/ledger.jsonl` có ≥1 dòng `decision=deny` cho tool `http_post`, không phải chỉ file config |
 | Compliance mapping + DPIA-lite | 10 | `reports/compliance-mapping.md` có evidence trỏ tới file/dòng thật, `reports/dpia-lite.md` đủ 3 phần (dữ liệu/mục đích/luồng đi) |
@@ -18,6 +19,9 @@ kết quả reproducible).
 - `reports/ledger.jsonl` có bất kỳ dòng nào thiếu `reason`.
 - `reports/attack-after.log` (hoặc `pytest tests/test_injection.py`) vẫn
   cho thấy PII của `KH-000999` lộ ra sink.
+- `pytest tests/test_split.py` cho thấy runner đã đọc dữ liệu của một khách
+  mà attacker chỉ nhắc tới trong free text (`KH-000777`). Chặn ở chặng gửi
+  là **mitigation**; bài này yêu cầu **containment**.
 
 Hai điều kiện này là toàn bộ luận đề của buổi học: **containment không
 có bằng chứng = chưa contain**, và **có bằng chứng nhưng attack sau vẫn
@@ -37,6 +41,9 @@ pytest -v
   non-empty" và rule tối thiểu.
 - `tests/test_ledger.py` pass/fail map vào "audit completeness" +
   tamper-evidence.
+- `tests/test_split.py` pass/fail map vào "Containment thật": FAIL nghĩa là
+  sinh viên chặn được chặng gửi nhưng vẫn đọc dữ liệu do attacker chỉ định
+  (hoặc chặn sạch mọi thứ, mất tiện ích).
 - `tests/test_injection.py -v` in ra bao nhiêu biến thể PASS/SKIP/FAIL
   trên 5 → map trực tiếp vào băng điểm "Block rate sau contain". SKIP =
   biến thể chưa được viết (0 điểm biến thể đó, không phải lỗi hệ thống).
