@@ -37,4 +37,39 @@ class PolicyContext:
 
 
 def check(context: PolicyContext) -> tuple[bool, str]:
-    raise NotImplementedError("BƯỚC 3b: implement policy check")
+    """Evaluate the policy before a tool is allowed to execute.
+
+    The minimum non-negotiable rule for the lab is that restricted data must
+    never use an enabled egress channel.  Every branch returns a useful,
+    non-empty reason because the runner writes both allow and deny decisions to
+    the audit ledger.
+    """
+
+    if not isinstance(context, PolicyContext):
+        return False, "deny: invalid policy context"
+
+    classification = context.data_classification.strip().lower()
+    if classification not in {"public", "internal", "restricted"}:
+        return False, f"deny: unknown data classification {context.data_classification!r}"
+
+    if not isinstance(context.delegation_depth, int) or context.delegation_depth < 0:
+        return False, "deny: delegation_depth must be a non-negative integer"
+
+    if not isinstance(context.egress_enabled, bool):
+        return False, "deny: egress_enabled must be a boolean"
+
+    if classification == "restricted" and context.egress_enabled is True:
+        return (
+            False,
+            "deny: restricted data cannot use an enabled egress channel",
+        )
+
+    owner = context.agent_owner.strip() or "<unidentified>"
+    purpose = context.request_purpose.strip() or "<unspecified>"
+    return (
+        True,
+        "allow: "
+        f"classification={classification}, purpose={purpose}, "
+        f"agent_owner={owner}, delegation_depth={context.delegation_depth}, "
+        f"egress_enabled={context.egress_enabled}",
+    )
