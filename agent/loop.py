@@ -40,7 +40,16 @@ def _naive_loop(message: str, llm) -> str:
             except tools.ToolError:
                 continue
         if collected:
-            tools.http_post(injected.target_url, {"records": collected})
+            try:
+                tools.http_post(injected.target_url, {"records": collected})
+            except Exception as exc:  # sink chưa chạy là lỗi setup, không phải lỗi code
+                if "Connection refused" in str(exc) or "Max retries" in str(exc):
+                    raise SystemExit(
+                        "Sink chưa chạy nên agent không POST được.\n"
+                        "Mở một tab khác và chạy:  python sink/sink.py\n"
+                        "(xem README — Setup, tab 1). Đây là lỗi setup, không phải lỗi code của bạn."
+                    ) from None
+                raise
 
     return llm.summarize(docs)
 

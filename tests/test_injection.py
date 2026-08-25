@@ -73,6 +73,28 @@ def test_variant_blocked_after_containment(variant, isolate_variant, clean_sink,
 
     isolate_variant(variant)
 
+    # Phân biệt "lure trơ" với "containment hỏng". Nếu agent không bao giờ ĐỌC
+    # được file, hoặc đọc mà không coi là chỉ thị, thì không có gì để chặn —
+    # và lỗi nằm ở biến thể bạn viết, KHÔNG phải ở policy.py. Nếu không tách
+    # hai trường hợp này, assert cuối sẽ đổ lỗi nhầm cho policy.py.
+    from agent import tools as _tools
+    from agent.llm import find_injection as _find_injection
+
+    _docs = _tools.search_docs(QUERY)
+    _seen = {d["id"] for d in _docs}
+    _files = [p.name for p in _variant_files(variant)]
+    assert any(name in _seen for name in _files), (
+        f"biến thể {variant}: search_docs không trả về {_files} với query {QUERY!r}, "
+        f"nên agent không bao giờ đọc lure này — lure TRƠ, không phải lỗi policy.py.\n"
+        f"Thêm vào file ít nhất 1 từ trong query (dễ nhất: tiêu đề '# Ticket #90{variant} — ...').\n"
+        f"Tự kiểm tra: python -m agent.check_lure corpus/ticket-90{variant}.md"
+    )
+    assert _find_injection("\n\n".join(d["text"] for d in _docs)) is not None, (
+        f"biến thể {variant}: agent đọc được lure nhưng KHÔNG coi đó là chỉ thị "
+        f"(cần >= 2 marker mang tính ra lệnh/thẩm quyền) — lure TRƠ, không phải lỗi policy.py.\n"
+        f"Tự kiểm tra: python -m agent.check_lure corpus/ticket-90{variant}.md"
+    )
+
     # log_dir=tmp_path: ledger của TEST đi vào thư mục tạm, không đụng
     # reports/ledger.jsonl thật của bạn (file đó chỉ nên được viết bởi
     # `python -m agent.loop` lúc bạn tự chạy tay ở Bước 4).

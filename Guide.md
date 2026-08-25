@@ -57,6 +57,16 @@ trong `injection-corpus.md`):
 4. Chia payload qua 2 document (`ticket-904.md` + `ticket-904b.md`)
 5. Tiếng Việt không dấu / teencode / unicode lookalike
 
+**Sau mỗi biến thể, tự kiểm tra ngay** (nhanh hơn nhiều so với chạy grader):
+
+```bash
+python -m agent.check_lure corpus/ticket-902.md
+```
+
+Nó kiểm hai cửa: `search_docs` có trả về file không, và nội dung có được coi
+là chỉ thị không (>= 2 marker). Một lure trơ sẽ làm `test_injection.py` báo
+lỗi trông như lỗi `policy.py` — xem `injection-corpus.md`.
+
 Mock LLM (`agent/llm.py:find_injection`) nhận diện chỉ thị **sau khi
 chuẩn hoá** (bỏ dấu, hạ chữ thường) — nó "hiểu" được biến thể 5 giống một
 model thật, khác với một bộ filter chuỗi thô. Đây là điểm bạn sẽ khai
