@@ -23,9 +23,10 @@ kết quả reproducible).
   mà attacker chỉ nhắc tới trong free text (`KH-000777`). Chặn ở chặng gửi
   là **mitigation**; bài này yêu cầu **containment**.
 
-Hai điều kiện này là toàn bộ luận đề của buổi học: **containment không
-có bằng chứng = chưa contain**, và **có bằng chứng nhưng attack sau vẫn
-lọt = containment không hoạt động**.
+Ba điều kiện này là toàn bộ luận đề của buổi học: **containment không
+có bằng chứng = chưa contain**, **có bằng chứng nhưng attack sau vẫn lọt =
+containment không hoạt động**, và **chặn được chặng gửi nhưng vẫn đọc dữ
+liệu do attacker chỉ định = mitigation, chưa phải containment**.
 
 ## Cách chấm nhanh (dành cho giảng viên/TA)
 
